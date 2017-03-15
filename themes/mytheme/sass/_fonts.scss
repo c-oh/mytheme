@@ -1,3 +1,43 @@
 /*--------------------------------------------------------------
 # Embedded Fonts
 --------------------------------------------------------------*/
+
+//open sans regular
+
+@font-face {
+    font-family: 'Open sans';
+    src: url('../../resources/fonts/open-sans/regular/OpenSans-Regular-webfont.eot');
+    src: url('../../resources/fonts/open-sans/regular/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../resources/fonts/open-sans/regular/OpenSans-Regular-webfont.woff') format('woff'),
+         url('../../resources/fonts/open-sans/regular/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('../../resources/fonts/open-sans/regular/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+//open sans bold
+
+@font-face {
+    font-family: 'Open sans';
+    src: url('../../resources/fonts/open-sans/bold/OpenSans-Bold-webfont.eot');
+    src: url('../../resources/fonts/open-sans/bold/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../resources/fonts/open-sans/bold/OpenSans-Bold-webfont.woff') format('woff'),
+         url('../../resources/fonts/open-sans/bold/OpenSans-Bold-webfont.ttf') format('truetype'),
+         url('../../resources/fonts/open-sans/bold/OpenSans-Bold-webfont.svg#open_sansregular') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+//montserrat bold
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../../resources/fonts/montserrat/bold/montserrat-bold-webfont.eot');
+    src: url('../../resources/fonts/montserrat/bold/montserrat-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../resources/fonts/montserrat/bold/montserrat-bold-webfont.woff') format('woff'),
+         url('../../resources/fonts/montserrat/bold/montserrat-bold-webfont.ttf') format('truetype'),
+         url('../../resources/fonts/montserrat/bold/montserrat-bold-webfont.svg#montserratbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
