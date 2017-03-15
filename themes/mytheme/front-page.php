@@ -8,7 +8,7 @@ get_header(); ?>
 
 <div id= "home" class ="hero-banner">
     <div class= "banner-container">   
-        <h2 class= "banner-container-title"> thanks for <span class= "banner-title-span"> dropping</span> by my site </h2>
+        <h2 class= "banner-container-title"> thanks for <br> <span class= "banner-title-span"> dropping</span> <br> by my site </h2>
     </div>
 </div>
 

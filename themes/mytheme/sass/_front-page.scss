@@ -1,7 +1,24 @@
-.about-title, .skillset-title, .contact-title {
+.banner-container-title, .about-title, .portfolio-title, .skillset-title, .contact-title {
     @include title-styling;
+    font-size:60;
+}
+
+.hero-banner{
+    height: calc(100vh - 40px);
+}
+.banner-container{
+    text-align:center;
 }
 
 .banner-title-span{
     color:$color__yellow;
+    font-size: 50px;
+}
+
+.about-title::after{
+    content: '';
+    display: block;
+    width: 80%;
+    height: 2px;
+    background-color: $color__darker_gray;
 }
