@@ -1,0 +1,7 @@
+.about-title, .skillset-title, .contact-title {
+    @include title-styling;
+}
+
+.banner-title-span{
+    color:$color__yellow;
+}

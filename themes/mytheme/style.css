@@ -346,6 +346,13 @@ ul, ol {
 a {
   text-decoration: none; }
 
+.site-content {
+  padding: 20px; }
+
+@media (min-width: 1000px) {
+  .site-content {
+    padding: 0; } }
+
 /*--------------------------------------------------------------
 # Forms
 --------------------------------------------------------------*/
@@ -490,3 +497,9 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
+.about-title, .skillset-title, .contact-title {
+  font-family: Montserrat, Arial, sans-serif;
+  text-transform: uppercase; }
+
+.banner-title-span {
+  color: #FFDD00; }

@@ -53,3 +53,13 @@ ul, ol{
 a{
 	text-decoration: none;
 }
+
+.site-content{
+	padding:20px;
+}
+
+@media(min-width:1000px){
+	.site-content{
+		padding:0;
+	}
+}
