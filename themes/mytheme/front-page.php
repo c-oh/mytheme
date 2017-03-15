@@ -13,7 +13,7 @@ get_header(); ?>
 </div>
 
 <div id= "about" class= "about-section">
-    <h1 class= "about-title"> just a bit <br> about me</h1>
+    <h1 class= "about-title"> a little <br> about me</h1>
     <p class= "about-description">Pok pok brooklyn assumenda, elit try-hard normcore subway tile gochujang anim trust fund tumblr thundercats skateboard pabst. Marfa minim labore, duis paleo delectus occaecat man bun biodiesel butcher cold-pressed sunt pok pok XOXO freegan. Echo park air plant tilde, occaecat pork belly squid typewriter actually cillum hella tote bag. Man braid you probably haven't heard of them church-key, synth tofu eu banjo chicharrones hoodie mlkshk shabby chic duis hammock butcher mumblecore.</p>
 </div>
 

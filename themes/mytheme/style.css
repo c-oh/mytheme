@@ -347,9 +347,11 @@ a {
   text-decoration: none; }
 
 .site-content {
-  padding: 20px; }
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto; }
 
-@media (min-width: 1000px) {
+@media (min-width: 1040px) {
   .site-content {
     padding: 0; } }
 
@@ -501,16 +503,39 @@ object {
   font-family: Montserrat, Arial, sans-serif;
   text-transform: uppercase;
   font-size: 60; }
+  @media (min-width: 1040px) {
+    .banner-container-title, .about-title, .portfolio-title, .skillset-title, .contact-title {
+      font-size: 80px;
+      line-height: 64px;
+      margin: 0; } }
 
 .hero-banner {
   height: calc(100vh - 40px); }
+  .hero-banner .banner-container {
+    text-align: center; }
+    .hero-banner .banner-container .banner-title-span {
+      color: #FFDD00;
+      font-size: 50px; }
+      @media (min-width: 1040px) {
+        .hero-banner .banner-container .banner-title-span {
+          font-size: 70px; } }
 
-.banner-container {
-  text-align: center; }
+@media (min-width: 1040px) {
+  .about-section {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    border-bottom: 0.5px solid #5979D2; } }
 
-.banner-title-span {
-  color: #FFDD00;
-  font-size: 50px; }
+@media (min-width: 1040px) {
+  .about-title {
+    padding-right: 54px;
+    border-right: 0.5px solid #5979D2; } }
+
+@media (min-width: 1040px) {
+  .about-description {
+    width: 45%; } }
 
 .about-title::after {
   content: '';
@@ -518,3 +543,6 @@ object {
   width: 80%;
   height: 2px;
   background-color: #5979D2; }
+  @media (min-width: 1040px) {
+    .about-title::after {
+      display: none; } }

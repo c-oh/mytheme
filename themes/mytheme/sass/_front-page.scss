@@ -1,24 +1,55 @@
 .banner-container-title, .about-title, .portfolio-title, .skillset-title, .contact-title {
     @include title-styling;
-    font-size:60;
-}
+    font-size: 60;
+    @include desktop {
+        font-size: 80px;
+        line-height: 64px;
+        margin: 0;
+    }
+ }
 
-.hero-banner{
+.hero-banner {
     height: calc(100vh - 40px);
+    .banner-container {
+        text-align: center;
+        .banner-title-span {
+            color: $color__yellow;
+            font-size: 50px;
+                @include desktop {
+                    font-size: 70px;
+                }
+        }
+    }
 }
-.banner-container{
-    text-align:center;
+    
+  
+.about-section {
+    @include desktop {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 0.5px solid $color__darker_gray;
+    }
 }
 
-.banner-title-span{
-    color:$color__yellow;
-    font-size: 50px;
+.about-title{
+    @include desktop{
+        padding-right:54px;
+        border-right: 0.5px solid $color__darker_gray;
+    }
 }
-
-.about-title::after{
-    content: '';
-    display: block;
-    width: 80%;
-    height: 2px;
-    background-color: $color__darker_gray;
-}
+    .about-description {
+        @include desktop {
+            width: 45%;
+        }
+    }
+    
+    .about-title::after {
+        content: '';
+        display: block;
+        width: 80%;
+        height: 2px;
+        background-color: $color__darker_gray;
+        @include desktop {
+            display: none;
+        }
+    }

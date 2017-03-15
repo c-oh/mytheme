@@ -15,3 +15,16 @@
 	font-family: $font__title;
 	text-transform: uppercase;
 }
+
+//responsive design
+@mixin tablet {
+	@media (min-width: $tablet__breakpoint) {
+		@content;
+	}
+}
+
+@mixin desktop {
+	@media (min-width: $desktop__breakpoint) {
+		@content;
+	}
+}

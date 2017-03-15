@@ -56,9 +56,11 @@ a{
 
 .site-content{
 	padding:20px;
+	max-width:1000px;
+	margin:auto;
 }
 
-@media(min-width:1000px){
+@media(min-width:1040px){
 	.site-content{
 		padding:0;
 	}
